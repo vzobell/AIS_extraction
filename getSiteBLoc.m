@@ -21,7 +21,7 @@ elseif isempty(si) || isempty(ei)
     fprintf('Partial HARP deployment found for this time period...skipping\n'); 
     return;
 elseif si<ei 
-    fprintf('Multiple HARP deployment found for this time period...skipping!!!!\n');
+    fprintf('Multiple HARP deployments found for this time period...skipping!!!!\n');
     return;
 end
 

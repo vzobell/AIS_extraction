@@ -1,7 +1,7 @@
-% getLTSAInfo_CINMS_B
-
-% [ lffn, ~, ~ ] = dbFindFiles('CINMS_B*df20*.ltsa', 'F:\', 1);
-% diskLabel = 'CINMS Decimated 3';
+% getXWAVTimes
+% only need to run this once to create a list of available xwavs and their
+% start/end times, location. This could be a function that is called by getShipPass
+% and only runs if the output file doesn't already exist.
 
 [ lffn, ~, ~ ] = dbFindFiles('CINMS*B*df20*.ltsa', 'I:\', 1);
 
