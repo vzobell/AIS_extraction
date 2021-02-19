@@ -1,0 +1,24 @@
+%%%%% 09/04/2018
+
+367189890_170318_214420 - Map points look like they are out of order in time
+367189890_170318_212520 - Map points look like they are out of order in time
+367189890_170318_205520 - Map points look like they are out of order in time
+
+367189890_170401_223444 - Track line appears to be two separate passes
+367189890_170401_213444 - Track line appears to be two sperate passes
+367189890_180401_220444 - Track line appears to be two separate passes
+
+220593000_170427_091334 - specgram looks like there is duplicate data in first 75s
+                        - code or data problem?  --> code problem 09/05/2018
+                         verified in triton CINMS_B_33_d02_170426_180615.df20.x.wav
+                         current Idx = 726
+                         
+                         code's call to get this data: 
+                         
+                         data = getCINMS_B_df20_180821(736812.384421296  , 736812.395335648);
+                        
+                         Code was not counting the samples that needed to be skipped in the first raw 
+                         file read...so would read more data than expected!
+                         
+                         
+        

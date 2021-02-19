@@ -1,0 +1,8 @@
+CINMS_B_30_03,      Special deployment
+CINMS_B_30_0115,    Special deployment
+CINMS_B_30_0130,    Special deployment
+CINMS_B_30_0145,    Special deployment
+CINMS_B_30_0515,    Special deployment
+CINMS_B_30_0530,    Special deployment
+CINMS_B_30_0545,    Special deployment
+CINMS_B_32,         Bad Hydrophone
