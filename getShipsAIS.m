@@ -159,7 +159,7 @@ for f = 1:NF
                 shipTracks(sInc).dnums = thisShip_num_m13(transitIdx(uTimes),1);
 
                 shipTracks(sInc).name = shipTracksTemp.name;
-                shipTracks(sInc).shipType = unique(thisShip_char_m5(transitIdx(uTimes),2));
+                shipTracks(sInc).shipType = unique(thisShip_num_m5(transitIdx(uTimes),5));;
                 shipTracks(sInc).MMSI = uShips(s);
                 shipTracks(sInc).IMO = unique(thisShip_num_m5(transitIdx(uTimes),3));
                 shipTracks(sInc).lons = thisShip_num_m13(transitIdx(uTimes),5);
